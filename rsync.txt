@@ -1,0 +1,9 @@
+rsync -av /Users/sandeep/Library/Application\ Support/Code/User/settings.json /Users/sandeep/SANDEEPFORAI/MacBKP/VSCode/
+rsync -av /Users/sandeep/Library/Application\ Support/Code/User/keybindings.json /Users/sandeep/SANDEEPFORAI/MacBKP/VSCode/
+rsync -av /Users/sandeep/Library/Application\ Support/Code/User/snippets/ /Users/sandeep/SANDEEPFORAI/MacBKP/VSCode/snippets/
+rsync -av --exclude='.SublimeREPLHistory' /Users/sandeep/Library/Application\ Support/Sublime\ Text/Packages/User/ /Users/sandeep/SANDEEPFORAI/MacBKP/Sublime/User/
+rsync -av /Users/sandeep/.jupyter/nbconfig/ /Users/sandeep/SANDEEPFORAI/MacBKP/Jupyter/nbconfig/
+rsync -av /Users/sandeep/SANDEEPFORAI/espanso/ /Users/sandeep/SANDEEPFORAI/MacBKP/espanso/
+rsync -av /Users/sandeep/.config/karabiner/karabiner.json /Users/sandeep/SANDEEPFORAI/MacBKP/karabiner/
+rsync -av /Users/sandeep/.bash_profile /Users/sandeep/SANDEEPFORAI/MacBKP/
+rsync -av /Users/sandeep/.gitconfig /Users/sandeep/SANDEEPFORAI/MacBKP/

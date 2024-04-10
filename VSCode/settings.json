@@ -1,0 +1,198 @@
+{
+    "python.defaultInterpreterPath": "/Users/sandeep/main/bin/python",
+    "window.zoomLevel": 1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "python.languageServer": "Pylance",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "sync.gist": "1f51045730b117bc898397627c8ccae2",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 19,
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        "**/*.txt",
+        "**/*.csv"
+    ],
+    "todo-tree.filtering.includeGlobs": [
+        "**/*.py"
+    ],
+    "sync.forceDownload": true,
+    "workbench.startupEditor": "none",
+    "jupyter.alwaysTrustNotebooks": true,
+    "todo-tree.general.tags": [
+        "FIXME",
+        "TODO",
+        "VERSION",
+        "IMP",
+        "NOTE",
+        "LEARN",
+        "COMBAK",
+        "TITLE",
+        "REFERENCES",
+        "BUG",
+        "COPYPASTE",
+        "*************************************************************************"
+    ],
+    "sync.forceUpload": true,
+    "python.showStartPage": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#3E4750",
+        "editor.selectionHighlightBackground": "#00000000",
+        "editor.selectionHighlightBorder": "#5FB4B4",
+        "editorLineNumber.activeForeground": "#08f524",
+        "editorCursor.foreground": "#F50908",
+        "editor.wordHighlightBackground": "#00000000",
+        "editor.wordHighlightBorder": "#FFFFFD",
+        "editor.wordHighlightStrongBackground": "#033c5a76",
+        "editorWidget.background": "#000000",
+        "editorIndentGuide.background1": "#353737",
+        "editorIndentGuide.activeBackground1": "#BFFF00",
+        "scrollbarSlider.activeBackground": "#e3e5e5",
+        "scrollbarSlider.background": "#454545",
+        "scrollbarSlider.hoverBackground": "#a3a3a1"
+    },
+    "debug.terminal.clearBeforeReusing": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.fontSize": 19,
+    "bookmarks.sideBar.expanded": true,
+    "explorer.confirmDelete": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "sync.removeExtensions": false,
+    "sync.syncExtensions": false,
+    "window.commandCenter": true,
+    "editor.accessibilitySupport": "off",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.codeLens.enable": false,
+    "todo-tree.highlights.customHighlight": {
+        "FIXME": {
+            "icon": "flame",
+            "iconColour": "#ff0000",
+            "foreground": "#ffffff",
+            "background": "#ff0000",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "TODO": {
+            "icon": "tasklist",
+            "iconColour": "#008000",
+            "foreground": "#ffffff",
+            "background": "#008000",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "VERSION": {
+            "icon": "versions",
+            "iconColour": "#cbcbcf",
+            "foreground": "#000000",
+            "background": "#cbcbcf",
+            "type": "text-and-comment",
+            "gutterIcon": true
+        },
+        "IMP": {
+            "icon": "star-fill",
+            "iconColour": "#ffa500",
+            "foreground": "#000000",
+            "background": "#ffa500",
+            "type": "tag-and-comment",
+            "rulerLane": "left",
+            "gutterIcon": true
+        },
+        "NOTE": {
+            "icon": "heart-fill",
+            "iconColour": "#800080",
+            "foreground": "#ffffff",
+            "background": "#800080",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "LEARN": {
+            "icon": "book",
+            "iconColour": "#ffff00",
+            "foreground": "#000000",
+            "background": "#ffff00",
+            "type": "tag-and-comment",
+            "rulerLane": "center",
+            "gutterIcon": true
+        },
+        "COMBAK": {
+            "icon": "iterations",
+            "iconColour": "#008cff",
+            "foreground": "#ffffff",
+            "background": "#0000ff",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "TITLE": {
+            "icon": "paper-airplane",
+            "iconColour": "#ffffff",
+            "foreground": "#000000",
+            "background": "#ffffff",
+            "type": "text-and-comment",
+            "gutterIcon": true
+        },
+        "REFERENCES": {
+            "icon": "link",
+            "iconColour": "#ee82ee",
+            "foreground": "#000000",
+            "background": "#ee82ee",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "icon": "bug",
+            "iconColour": "#ff0000",
+            "foreground": "#ffffff",
+            "background": "#ff0000",
+            "type": "tag-and-comment",
+            "gutterIcon": true
+        },
+        "COPYPASTE": {
+            "icon": "copy",
+            "iconColour": "#a52a2a",
+            "foreground": "#ffffff",
+            "background": "#a52a2a",
+            "type": "tag-and-comment",
+            "rulerLane": "left",
+            "gutterIcon": true
+        },
+        "*************************************************************************": {
+            "icon": "no-entry-fill",
+            "iconColour": "#808080",
+            "foreground": "#000000",
+            "background": "#808080",
+            "type": "line",
+            "gutterIcon": true
+        }
+    },
+    "todo-tree.tree.showCountsInTree": true,
+    "editor.scrollbar.verticalScrollbarSize": 19,
+    "todo-tree.highlights.defaultHighlight": {},
+    "vsicons.dontShowNewVersionMessage": true,
+    "jupyter.askForKernelRestart": false,
+    "workbench.colorTheme": "Pitch Black",
+    "explorer.confirmDragAndDrop": false,
+    "notebook.lineNumbers": "on",
+    "terminal.integrated.inheritEnv": false,
+    "codeium.enableCodeLens": false,
+    "git.openRepositoryInParentFolders": "never",
+    "codeium.enableConfig": {
+        "*": true
+    },
+    "bookmarks.saveBookmarksInProject": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.autoSaveDelay": 3000,
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.autoForwardPortsSource": "hybrid"
+}

@@ -1,0 +1,63 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+filter_title: "Visual Studio Code"
+
+matches:
+  # Visual Studio Code
+  - trigger: "fi;"
+    replace: "# FIXME: "
+
+  - trigger: "to;"
+    replace: "# TODO: "
+  
+  - trigger: "ve;"
+    replace: "# VERSION: "
+
+  - trigger: "im;"
+    replace: "# IMP"
+
+  - trigger: "imp;"
+    replace: "# IMP: "
+
+  - trigger: "no;"
+    replace: "# NOTE: "
+
+  - trigger: "le;"
+    replace: "# LEARN"
+
+  - trigger: "lea;"
+    replace: "# LEARN: "
+
+  - trigger: "co;"
+    replace: "# COMBAK: "
+
+  - trigger: "ti;"
+    replace: "# TITLE: "
+
+  - trigger: "re;"
+    replace: "# REFERENCES: "
+
+  - trigger: "bu;"
+    replace: "# BUG: "
+
+  - trigger: "cp;"
+    replace: "# COPYPASTE"
+
+  - trigger: "cop;"
+    replace: "# COPYPASTE: "
+
+  - trigger: "en;"
+    replace: "# *************************************************************************\n"
+
+  - trigger: "cu;"
+    replace: "# %%\n"
+
+  - trigger: "cn;"
+    replace: "\n# %%"

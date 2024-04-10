@@ -1,0 +1,73 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Basic Imports": {
+		"prefix": "om",
+		"body": [
+			"# %%",
+			"import numpy as np",
+			"import pandas as pd",
+			"import matplotlib.pyplot as plt",
+			"from sklearn import datasets",
+			"from sklearn.preprocessing import MinMaxScaler",
+			"from sklearn.model_selection import train_test_split",
+			"import torch",
+			"import torch.nn as nn",
+			"from torchvision import datasets",
+			"from torchvision.transforms import transforms",
+			"import re",
+			"import spacy",
+			"# %%",
+			"# 1. Get the Data",
+			"$1",
+			"# 2. Make the Dataset Iterable",
+			""
+			"# 3. Create Model Class",
+			""
+			"# 4. Instantiate Model class",
+			""
+			"# 5. Instantiate Loss class",
+			""
+			"# 6. Instantiate Optimizer class",
+			""
+			"# 7. Train the Model"
+			""
+		],
+		"description": "Basic Imports"
+	},
+	"Back Propogation": {
+		"prefix": "op",
+		"body": [
+			"optimizer.zero_grad()",
+			"loss.backward()",
+			"optimizer.step()",
+			"$1"
+		],
+		"description": "Derrivation"
+	},
+	"Print": {
+		"prefix": "pr",
+		"body": [
+			"print($1)"
+		],
+		"description": "Print Function"
+	},
+	"PrintF": {
+		"prefix": "prf",
+		"body": [
+			"print(f\"{$1}\")"
+		],
+		"description": "Print Function"
+	}
+}

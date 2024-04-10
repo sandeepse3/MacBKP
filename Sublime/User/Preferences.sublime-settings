@@ -1,0 +1,11 @@
+{
+	"theme": "Default Dark.sublime-theme",
+	"font_size": 24,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"save_on_focus_lost": true,
+	"index_files": true,
+}

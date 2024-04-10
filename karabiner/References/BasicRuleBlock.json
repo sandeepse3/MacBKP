@@ -1,0 +1,21 @@
+{
+    "title": "Remap x to y",
+    "rules": [
+        {
+            "description": "Remap x to y",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "x"
+                    },
+                    "to": [
+                        {
+                            "key_code": "y"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}

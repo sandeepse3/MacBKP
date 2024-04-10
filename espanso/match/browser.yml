@@ -1,0 +1,97 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+filter_title: "(Google Chrome|Firefox Web Browser)"
+
+matches:
+  # Websitess
+
+  - trigger: "ai;"
+    replace: "http://localhost:8888/tree/SANDEEPFORAI/AI\n"
+
+  - trigger: "ri;"
+    replace: "http://localhost:8888/tree/SANDEEPFORAI/AI/Rishith\n"
+
+  - trigger: "am;"
+    replace: "https://www.amazon.in/\n"
+
+  - trigger: "ac;"
+    replace: "https://myactivity.google.com/myactivity/\n"
+
+  - trigger: "ar;"
+    replace: "https://artsandculture.google.com/play\n"
+
+  - trigger: "au;"
+    replace: "https://www.audible.in/\n"
+
+  - trigger: "av;"
+    replace: "https://courses.analyticsvidhya.com/enrollments/\n"
+
+  - trigger: "ba;"
+    replace: "https://bard.google.com/\n"
+
+  - trigger: "bi;"
+    replace: "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx\n"
+
+  - trigger: "do;"
+    replace: "https://docs.google.com/\n"
+
+  - trigger: "ch;"
+    replace: "https://chat.openai.com/\n"
+
+  - trigger: "dr;"
+    replace: "https://drive.google.com/drive/my-drive\n"
+
+  - trigger: "ee;"
+    replace: "https://www.eenadu.net/\n"
+
+  - trigger: "fl;"
+    replace: "https://www.flipkart.com/\n"
+
+  - trigger: "gm;"
+    replace: "https://gmail.com/\n"
+
+  - trigger: "ke;"
+    replace: "https://keep.google.com/\n"
+
+  - trigger: "on;"
+    replace: "https://www.onenote.com/notebooks?wdorigin=+ondchrd&auth=1&nf=1&fromAR=1\n"
+    
+  - trigger: "pyt;"
+    replace: "http://localhost:8888/tree/SANDEEPFORAI/AI/PyTorch\n"
+
+  - trigger: "pa;"
+    replace: "https://pastebin.com/hzkvcJ72\n"
+
+  - trigger: "re;"
+    replace: "https://readalong.google.com/\n"
+
+  - trigger: "sp;"
+    replace: "https://www.speedtypingonline.com/typing-lessons\n"
+
+  - trigger: "sh;"
+    replace: "https://shoppinglist.google.com/\n"
+
+  - trigger: "spt;"
+    replace: "https://speedtest.net/\n"
+
+  - trigger: "ty;"
+    replace: "https://www.tynker.com/\n"
+
+  - trigger: "ud;"
+    replace: "https://www.udemy.com/\n"
+
+  - trigger: "wh;"
+    replace: "https://web.whatsapp.com/\n"
+
+  - trigger: "yo;"
+    replace: "https://www.youtube.com/\n"
+  
+  - trigger: "pr;"
+    replace: "print()"

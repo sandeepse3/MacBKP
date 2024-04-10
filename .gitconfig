@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Sandeep Puttur
+	email = sandeepse3@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input

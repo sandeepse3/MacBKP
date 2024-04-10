@@ -1,0 +1,26 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+filter_title: "Terminal"
+
+matches:
+  # Terminal
+  - trigger: "cl;"
+    replace: "clear\n"
+  
+  - trigger: "ex;"
+    replace: "exit\n"
+
+  - trigger: "rt;"
+    replace: "python /Users/sandeep/SANDEEPFORAI/AI/APPS/rtables.py\n"
+
+  - trigger: "st;"
+    replace: "python /Users/sandeep/SANDEEPFORAI/AI/APPS/stables.py\n"
+
+  - trigger: "ju;"
+    replace: "jupyter notebook\n"
