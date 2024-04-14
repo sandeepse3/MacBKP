@@ -1432,8 +1432,31 @@
                         ]
                     },
                     {
-                        "description": "Browser Cmd + H => Cmd + Y (History), Cmd + J => Cmd + Alt + L (Downloads), Cmd + K => Cmd + Alt + F (Search Google)",
+                        "description": "Browser F5 => Cmd + R, Cmd + H => Cmd + Y (History), Cmd + J => Cmd + Alt + L (Downloads), Cmd + K => Cmd + Alt + F (Search Google)",
                         "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com.google.Chrome",
+                                            "^com.apple.Safari"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
